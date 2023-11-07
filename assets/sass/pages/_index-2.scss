@@ -1,0 +1,88 @@
+// Hero section start from here
+.hm2-hero-area {
+    background-color: var(--home2-bg);
+}
+
+.hm2-hero-content {
+    h1 {
+        font-size: 72px;
+        font-weight: 400;
+        font-family: var(--heading-font);
+    }
+}
+
+.hm2-left-hero-content {
+    background-color: #fff;
+
+    h4 {
+        font-size: var(--headings-color);
+    }
+}
+
+.hm2-hero-left-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hm2-hero-right-title {
+    display: block;
+}
+
+// Feature product section start from here
+
+
+
+.single-feature-product {
+    position: relative;
+    .feature-hover {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        .feature-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-color: var(--headings-color);
+                opacity: 0.3;
+                z-index: -1;
+            }
+            h3 {
+                position: absolute;
+                top: 10px;
+                left: 15px;
+                color: #fff !important;
+                text-transform: uppercase;
+                z-index: 999;
+            }
+            .hm2-feature-btn {
+                display: inline-block;
+                position: absolute;
+                right: 10px;
+                bottom: 10px;
+                padding: 18px 26px;
+                font-weight: 500;
+                background-color: #fff;
+                color: var(--primary-color);
+                font-family: var(--heading-font);
+            }
+        }
+    }
+
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+.footer-widget {
+    .widget-title {
+        margin-bottom: 32px;
+        font-weight: 500;
+    }
+    .ft-links {
+        li {
+            display: block;
+            + li {
+                margin-top: 14px;
+            }
+            a {
+                display: block;
+                color: var(--text-color);
+            }
+        }
+    }
+    &.info-widget {
+        .footer-info {
+            a {
+                color: var(--text-color);
+                margin-bottom: 8px;
+                display: inline-block;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            
+        }
+    }
+}

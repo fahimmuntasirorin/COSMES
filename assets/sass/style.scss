@@ -1,0 +1,34 @@
+/*
+Theme Name: Cosmes - Cosmetics Store HTML Template
+Author: Mate_Themes
+Author URI: https://themeforest.net/user/mate_themes/
+Tags: cosmetics, ecommerce, comsmtic-store, store, online-store, html5 template
+Description: Cosmes - Cosmetics Store HTML5 Template. 
+Version: 1.0.0
+*/
+
+/************************************** base css **************************************/
+@import 'base/variables';
+@import 'base/mixin';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/spacing';
+
+
+/******************************* theme css **********************************/
+@import 'theme/theme-class';
+@import 'theme/animations';
+
+
+/******************************** components ******************************/
+@import 'components/header';
+@import 'components/preloader';
+@import 'components/buttons';
+@import 'components/footer';
+@import 'components/product-cards';
+@import 'components/breadcrumb';
+@import 'components/sidebar';
+
+/****************************** page styles ******************************/
+@import 'pages/index-1';
+@import 'pages/index-2';
