@@ -183,6 +183,10 @@ h4 {
   padding-top: 32px;
   padding-bottom: 32px; }
 
+.py-36 {
+  padding-top: 36px;
+  padding-bottom: 36px; }
+
 .px-40 {
   padding-left: 40px;
   padding-right: 40px; }
@@ -1095,7 +1099,7 @@ hr {
   position: relative; }
   .slider-container .product-title {
     font-family: var(--heading-font);
-    font-weight: 40; }
+    font-weight: 400; }
 
 .slick-slide {
   margin-right: 15px;
@@ -1187,3 +1191,7 @@ hr {
 .hm2-best-product-area .product-title {
   font-family: var(--heading-font);
   font-weight: 400; }
+
+.hm2-brand-area {
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color); }
