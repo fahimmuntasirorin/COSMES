@@ -1,6 +1,20 @@
 // Hero section start from here
 .hm2-hero-area {
     background-color: var(--home2-bg);
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    .hm2-hero-bg {
+        position: absolute;
+        z-index: -1;
+        top: 130px;
+        right: 0;
+        width: 85%;
+
+    }
 }
 
 .hm2-hero-content {
@@ -35,18 +49,21 @@
 
 .single-feature-product {
     position: relative;
+
     .feature-hover {
         position: absolute;
         height: 100%;
         width: 100%;
         top: 0;
         left: 0;
+
         .feature-content {
             position: absolute;
             top: 0;
             left: 0;
             height: 100%;
             width: 100%;
+
             &::before {
                 content: "";
                 position: absolute;
@@ -58,6 +75,7 @@
                 opacity: 0.3;
                 z-index: -1;
             }
+
             h3 {
                 position: absolute;
                 top: 10px;
@@ -66,6 +84,7 @@
                 text-transform: uppercase;
                 z-index: 999;
             }
+
             .hm2-feature-btn {
                 display: inline-block;
                 position: absolute;
@@ -83,6 +102,176 @@
 }
 
 
+// Product slider section start from here 
+
+.feature-img {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.feature-img img {
+    width: 100%;
+    max-height: 100%;
+
+}
+
+
+/* Inline #10 | http://localhost:7879/index-2.html */
+
+.slider-container {
+    position: relative;
+}
+
+.slick-prev.pull-left.slick-arrow {
+    position: absolute;
+    top: -70px;
+    right: 70px;
+    z-index: 999;
+    display: block;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+}
+
+.slick-next.pull-right.slick-arrow {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    z-index: 999;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+.slider-product-content span {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+.slider-product-content h4 {
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.slider-product-price span {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+
+.single-slider-product {
+    border: 1px solid var(--border-color);
+    padding: 30px;
+}
+
+.slick-slide {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+/* style.css | http://localhost:7879/assets/css/style.css?cache-bust=0.3602667376434453 */
+
+.slick-next.pull-right.slick-arrow {
+    /* top: -70px; */
+    top: -140px;
+}
+
+.slick-prev.pull-left.slick-arrow {
+    /* top: -70px; */
+    top: -140px;
+}
 
 
 
+//  home2 Banner area start from here 
+
+
+/* Inline #9 | http://localhost:7879/index-2.html */
+
+
+.hm2-banner-area {
+    background-color: var(--light-bg);
+}
+
+
+/* Inline #9 | http://localhost:7879/index-2.html */
+
+.hm2-banner-img-main {
+    height: 100%;
+    width: 100%;
+}
+
+.hm2-banner-img-main img {
+    height: 100%;
+    width: 85%;
+}
+
+.hm2-banner-img {
+    position: relative;
+}
+
+.hm2-banner-img-main {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 40px;
+}
+
+.hm2-banner-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+/* style.css | http://localhost:7879/assets/css/style.css */
+
+.hm2-banner-content {
+    /* left: 0; */
+    left: 60px;
+}
+
+/* Inline #9 | http://localhost:7879/index-2.html */
+
+.hm2-banner-content h2 {
+    font-family: var(--heading-font);
+    font-weight: 400;
+}
+
+.hm2-banner-content .hm2-border-btn {
+    background-color: var(--white-color);
+}
+
+.hm2-banner-content-right {
+    position: absolute;
+    top: 50%;
+    left: 65px;
+    transform: translateY(-30%);
+
+    h2 {
+        font-family: var(--heading-font);
+        font-weight: 400;
+    }
+
+}
+
+.hm2-banner-content-right .hm2-border-btn {
+    background-color: var(--white-color);
+}
+
+
+
+.hm2-banner-area {
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    overflow: hidden;
+}
