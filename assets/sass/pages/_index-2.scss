@@ -181,86 +181,63 @@
 }
 
 
-
-
-
-
 //  home2 Banner area start from here 
 
 .hm2-banner-area {
     background-color: var(--light-bg);
-}
-
-
-/* Inline #9 | http://localhost:7879/index-2.html */
-
-.hm2-banner-img-main {
-    height: 100%;
-    width: 100%;
-}
-
-.hm2-banner-img-main img {
-    height: 100%;
-    width: 85%;
-}
-
-.hm2-banner-img {
-    position: relative;
-}
-
-.hm2-banner-img-main {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    padding-left: 40px;
-}
-
-.hm2-banner-content {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-}
-
-/* style.css | http://localhost:7879/assets/css/style.css */
-
-.hm2-banner-content {
-    /* left: 0; */
-    left: 60px;
-}
-
-/* Inline #9 | http://localhost:7879/index-2.html */
-
-.hm2-banner-content h2 {
-    font-family: var(--heading-font);
-    font-weight: 400;
-}
-
-.hm2-banner-content .hm2-border-btn {
-    background-color: var(--white-color);
-}
-
-.hm2-banner-content-right {
-    position: absolute;
-    top: 50%;
-    left: 65px;
-    transform: translateY(-30%);
-
-    h2 {
-        font-family: var(--heading-font);
-        font-weight: 400;
-    }
-
-}
-
-.hm2-banner-content-right .hm2-border-btn {
-    background-color: var(--white-color);
-}
-
-
-
-.hm2-banner-area {
     background-repeat: no-repeat;
     background-position-x: 40%;
     overflow: hidden;
+    .hm2-banner-img {
+        position: relative;
+
+        .hm2-banner-img-main {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding-left: 40px;
+
+            img {
+                height: 100%;
+                width: 85%;
+            }
+        }
+
+        .hm2-banner-content {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 60px;
+            h2 {
+                font-family: var(--heading-font);
+                font-weight: 400;
+            }
+            .hm2-border-btn {
+                background-color: var(--white-color);
+            }
+        }
+
+
+    }
+    .hm2-banner-content-right {
+        position: absolute;
+        top: 50%;
+        left: 65px;
+        transform: translateY(-30%);
+    
+        h2 {
+            font-family: var(--heading-font);
+            font-weight: 400;
+        }
+        .hm2-border-btn {
+            background-color: var(--white-color);
+        }        
+    
+    }
 }
+
+
+
+
