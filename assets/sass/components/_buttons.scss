@@ -40,13 +40,13 @@
 
 .hm2-primary-btn{
     padding: 15px 35px;
-    background-color: var(--primary-color);
+    background-color: var(--light-bg);
     font-size: 18px;
     font-weight: 500;
-    color: #fff;
+    color: var(--primary-color);
     text-transform: capitalize;
     display: inline-block;
-    border: 2px solid var(--primary-color);
+
 }
 
 .hm2-border-btn{
