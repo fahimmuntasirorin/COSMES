@@ -49,5 +49,14 @@ $('.hm2-testimonials').slick({
     prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
     nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
 });
+// latest post slider
+
+$('.hm2-latest-posts').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    dots:true,
+    arrows:false
+});
 
 })(jQuery)
