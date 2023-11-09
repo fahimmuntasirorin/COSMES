@@ -1349,78 +1349,59 @@ hr {
   margin-left: 30px;
   background-color: var(--white-color); }
 
-.hm2-single-latest-post {
-  background-color: var(--white-color); }
-
 .hm2-latest-post-area {
   background-color: var(--home2-bg); }
-
-/* Inline #10 | http://localhost:7879/index-2.html */
-.hm2-latest-post-title h2 {
-  font-weight: 400;
-  margin-bottom: 80px; }
-
-/* Inline #10 | http://localhost:7879/index-2.html */
-.post-meta span i {
-  margin-right: 10px; }
-
-.post-meta span {
-  margin-right: 30px;
-  text-transform: uppercase; }
-
-.hm2-latest-post-content h3 {
-  font-size: 30px;
-  font-weight: 500; }
-
-/* Inline #9 | http://localhost:7879/index-2.html */
-.hm2-latest-btn {
-  text-decoration: underline;
-  text-transform: uppercase;
-  color: var(--primary-color);
-  font-weight: 500;
-  text-underline-offset: 10px; }
-
-/* Inline #9 | http://localhost:7879/index-2.html */
-.slick-dots li {
-  font-size: 0px;
-  height: 5px;
-  width: 5px;
-  background-color: #333;
-  margin-left: 20px;
-  border-radius: 50%;
-  position: relative; }
-
-.slick-dots {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.slick-dots li.slick-active::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 15px;
-  width: 15px;
-  z-index: -1;
-  border: 1px solid #333;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  border-radius: 50%; }
-
-.slick-dots li {
-  z-index: 2; }
-
-/* Inline #10 | http://localhost:7879/index-2.html */
-.hm2-latest-posts {
-  position: relative; }
-
-.slick-dots {
-  position: absolute;
-  top: -110px;
-  right: 5px;
-  cursor: pointer; }
+  .hm2-latest-post-area .hm2-latest-post-title h2 {
+    font-weight: 400;
+    margin-bottom: 80px; }
+  .hm2-latest-post-area .hm2-latest-posts {
+    position: relative; }
+    .hm2-latest-post-area .hm2-latest-posts .hm2-single-latest-post {
+      background-color: var(--white-color); }
+      .hm2-latest-post-area .hm2-latest-posts .hm2-single-latest-post .hm2-latest-post-content h3 {
+        font-size: 30px;
+        font-weight: 500; }
+      .hm2-latest-post-area .hm2-latest-posts .hm2-single-latest-post .hm2-latest-post-content .post-meta span {
+        margin-right: 30px;
+        text-transform: uppercase; }
+        .hm2-latest-post-area .hm2-latest-posts .hm2-single-latest-post .hm2-latest-post-content .post-meta span i {
+          margin-right: 10px; }
+      .hm2-latest-post-area .hm2-latest-posts .hm2-single-latest-post .hm2-latest-post-content .hm2-latest-btn {
+        text-decoration: underline;
+        text-transform: uppercase;
+        color: var(--primary-color);
+        font-weight: 500;
+        text-underline-offset: 10px; }
+    .hm2-latest-post-area .hm2-latest-posts .slick-dots {
+      position: absolute;
+      top: -110px;
+      right: 5px;
+      cursor: pointer;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .hm2-latest-post-area .hm2-latest-posts .slick-dots li {
+        z-index: 2;
+        font-size: 0px;
+        height: 5px;
+        width: 5px;
+        background-color: #333;
+        margin-left: 20px;
+        border-radius: 50%;
+        position: relative; }
+        .hm2-latest-post-area .hm2-latest-posts .slick-dots li.slick-active::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          height: 15px;
+          width: 15px;
+          z-index: -1;
+          border: 1px solid #333;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          border-radius: 50%; }
 
 .hm2-feature-slider-area {
   position: relative;
@@ -1461,7 +1442,9 @@ hr {
   background-color: var(--headings-color); }
   .hm2-footer-section .hm2-widget-title {
     color: var(--white-color);
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: 500; }
   .hm2-footer-section .hm2-footer-widget .ft-links li {
     position: relative; }
     .hm2-footer-section .hm2-footer-widget .ft-links li i {
@@ -1492,26 +1475,22 @@ hr {
     color: var(--white-color);
     margin-right: 36px; }
 
-.hm2-footer-widget .hm2-footer-bottom {
+.hm2-footer-bottom {
   background-color: var(--headings-color);
   padding: 40px 0px; }
-
-.hm2-footer-bottom-nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: end; }
-
-.hm2-footer-bottom-nav ul li {
-  margin-right: 50px; }
-
-.hm2-footer-bottom-nav ul li:nth-last-child(1) {
-  margin-right: 0px; }
-
-.hm2-footer-bottom-nav ul li a {
-  color: var(--text-color); }
+  .hm2-footer-bottom .hm2-footer-bottom-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end; }
+    .hm2-footer-bottom .hm2-footer-bottom-nav ul li {
+      margin-right: 50px; }
+      .hm2-footer-bottom .hm2-footer-bottom-nav ul li:nth-last-child(1) {
+        margin-right: 0px; }
+      .hm2-footer-bottom .hm2-footer-bottom-nav ul li a {
+        color: var(--text-color); }
