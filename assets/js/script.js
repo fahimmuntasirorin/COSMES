@@ -58,5 +58,16 @@ $('.hm2-latest-posts').slick({
     dots:true,
     arrows:false
 });
+// hm2 feature sliders
+
+$('.hm2-feature-sliders').slick({
+    infinite: true,
+    slidesToShow: 7,
+    slidesToScroll: 5,
+    dots:false,
+    arrows:false,
+    autoplay:true,
+    centerMode:true
+});
 
 })(jQuery)

@@ -90,6 +90,12 @@
         padding-bottom: 70px;
     }
 }
+.pb-120 {
+    padding-bottom: 120px;
+    @include screen-768 {
+        padding-bottom: 75px;
+    }
+}
 .pb-72{
     padding-bottom: 72px;
 }

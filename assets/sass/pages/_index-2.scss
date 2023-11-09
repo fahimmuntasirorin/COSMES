@@ -278,7 +278,6 @@
 // sell product area start from here
 
 
-/* Inline #9 | http://localhost:7879/index-2.html# */
 
 .hm2-single-sell-product {
     background-size: cover;
@@ -288,7 +287,6 @@
 }
 
 
-/* Inline #9 | http://localhost:7879/index-2.html# */
 
 .sell-product-mini-title {
     position: absolute;
@@ -302,7 +300,6 @@
     left: 60px;
 }
 
-/* style.css | http://localhost:7879/assets/css/style.css */
 
 .hm2-single-sell-product {
     /* background-position: center; */
@@ -395,7 +392,6 @@
     border: 1px solid var(--border-color);
 }
 
-/* style.css | http://localhost:7879/assets/css/style.css */
 
 .testimonial-author {
     margin-bottom: 10px;
@@ -405,7 +401,8 @@
 .client-testimonial-area {
     .slick-prev.pull-left.slick-arrow {
         position: absolute;
-        left: -26px;
+        left: -26px !important;
+        right: 0px;
         z-index: 999;
         display: block;
         padding: 20px;
@@ -432,8 +429,6 @@
 }
 
 // latest post
-
-/* Inline #9 | http://localhost:7879/index-2.html */
 
 .hm2-single-latest-post {
     background-color: var(--white-color);
@@ -515,12 +510,152 @@
 
 .hm2-latest-posts {
     position: relative;
-  }
-  
-  .slick-dots {
+}
+
+.slick-dots {
     position: absolute;
     top: -110px;
     right: 5px;
     cursor: pointer;
-  }
-  
+}
+
+
+//   hm2 feature slider area
+.hm2-feature-slider-area {
+    position: relative;
+    overflow: hidden;
+
+    .feature-slider-banner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--white-color);
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .hm2-feature-sliders {
+            .slick-list {
+                .slick-track {
+                    .slick-slide {
+                        margin: 0px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .feature-slider-banner {
+        span {
+            display: block;
+        }
+
+        .feature-slider-banner-content {
+            .hm2-feature-slider-follow {
+                background-color: var(--headings-color);
+                font-weight: 500;
+                color: var(--white-color);
+                padding: 15px;
+            }
+
+            .hm2-feature-slider-cosmes {
+                color: var(--headings-color);
+                font-weight: 400;
+                padding: 30px;
+            }
+        }
+    }
+
+
+}
+
+
+
+
+// hm2 footer section 
+.hm2-footer-section {
+    background-color: var(--headings-color);
+
+    .hm2-widget-title {
+        color: var(--white-color);
+        margin-bottom: 50px;
+    }
+
+    .hm2-footer-widget {
+        .ft-links {
+            li {
+                position: relative;
+
+                i {
+                    position: absolute;
+                    top: 50%;
+                    left: 30px;
+                    transform: translateY(-50%);
+                }
+
+                input {
+                    padding: 22px 55px;
+                    background: transparent;
+                    border: 1px solid var(--footer-border-color);
+                    color: var(--text-color);
+                }
+
+                button {
+                    position: absolute;
+                    top: 50%;
+                    right: 5px;
+                    transform: translateY(-50%);
+                    background-color: var(--white-color);
+                    padding: 16px 24px;
+                }
+
+            }
+        }
+
+        h4 {
+            font-weight: 500;
+            font-size: 30px;
+        }
+    }
+
+    .hm2-footer-social {
+        a {
+            color: var(--white-color);
+            margin-right: 36px;
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+.hm2-footer-widget .hm2-footer-bottom {
+    background-color: var(--headings-color);
+    padding: 40px 0px;
+}
+
+.hm2-footer-bottom-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.hm2-footer-bottom-nav ul li {
+    margin-right: 50px;
+}
+
+.hm2-footer-bottom-nav ul li:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.hm2-footer-bottom-nav ul li a {
+    color: var(--text-color);
+}
